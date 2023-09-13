@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{html,js,jsx}',
-    './components/**/*.{html,js,jsx}',
-    './sections/**/*.{html,js,jsx}',
-    './styles/**/*.{js,jsx}',
+    // './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    // './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    // './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{html,js,jsx}',
+    './src/components/**/*.{html,js,jsx}',
+    './src/sections/**/*.{html,js,jsx}',
+    './src/styles/**/*.{js,jsx}',
   ],
   mode: 'jit',
   theme: {
@@ -19,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
